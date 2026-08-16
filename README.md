@@ -1,6 +1,6 @@
 # 🦉 night-owl
 
-A Claude Code plugin that notices when you're coding at 3 AM and charges you for it.
+A Claude Code plugin that notices when you're coding at night and charges you for it.
 
 Every message you send to Claude Code between **12:30 AM and 5 AM** local time gets
 logged. The first message of each night adds **$5** to your tab — one charge per
