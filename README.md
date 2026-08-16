@@ -28,7 +28,7 @@ Type these inside Claude Code (desktop app, terminal, or IDE â€” anywhere you ca
 send a message):
 
 ```
-/plugin marketplace add YOUR-GITHUB-USERNAME/night-owl
+/plugin marketplace add destevae/night-owl
 /plugin install night-owl@night-owl-marketplace
 ```
 
@@ -36,7 +36,7 @@ If you don't have SSH keys set up with GitHub, use the full HTTPS URL instead â€
 the `owner/repo` shorthand clones over SSH by default:
 
 ```
-/plugin marketplace add https://github.com/YOUR-GITHUB-USERNAME/night-owl.git
+/plugin marketplace add https://github.com/destevae/night-owl.git
 ```
 
 Then restart Claude Code, or run `/reload-plugins`.
