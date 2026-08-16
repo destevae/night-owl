@@ -1,0 +1,11 @@
+{
+  "name": "night-owl-marketplace",
+  "owner": { "name": "elainetang" },
+  "plugins": [
+    {
+      "name": "night-owl",
+      "source": "./",
+      "description": "Charges you $5 for every night you use Claude Code between 12:30 AM and 5 AM."
+    }
+  ]
+}

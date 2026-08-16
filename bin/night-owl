@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Thin wrapper so `night-owl` works as a command while the plugin is enabled.
+# Claude Code puts a plugin's bin/ directory on the Bash tool's PATH.
+# With no arguments it prints the ledger.
+here=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+exec "$here/../scripts/night-owl.sh" "${@:-report}"
